@@ -741,7 +741,128 @@ body {
 
 
 
+@media (min-width:1920px) {
 
+  .right-part {
+    top: 192px;
+  }
+
+  .header-logo img {
+    width: 198px;
+    height: 53px
+  }
+
+  .container {
+    max-width: 1920px;
+  }
+
+  .button-text {
+    font-size: 18px;
+    line-height: 16px;
+  }
+
+  .button-container:hover .button-svg {
+    filter: drop-shadow(0px 4px 39px rgba(245, 17, 92, 0.75));
+  }
+
+  .button-container {
+    width: 334px;
+    height: 62px;
+  }
+
+  .custom-checkbox {
+    width: 26px;
+    height: 26px;
+  }
+
+  .modal-body p {
+    max-width: 368px;
+    padding: 32px 0 42px;
+    font-size: 20px;
+    line-height: 21px;
+    letter-spacing: -0.96px;
+  }
+
+  .checkbox-container {
+    gap: 8px;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+
+  .checkbox-container .text {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .close-btn {
+    top: 20px;
+    right: 20px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .modal-header h2 {
+    font-size: 26px;
+  }
+
+  .mode-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .hero-img {
+    max-width: 564px;
+  }
+
+  .modal-content {
+    bottom: 470px;
+    right: 431px;
+    width: 600px;
+    height: 515px;
+    padding: 20px;
+  }
+
+  /* Styles for the first block */
+  .block-1 {
+    width: 555px;
+    height: 119px;
+    border-radius: 14px;
+    backdrop-filter: blur(40px);
+    font-size: 55px;
+  }
+
+  /* Styles for the second block */
+  .block-2 {
+    left: 60px;
+    width: 696px;
+    height: 119px;
+    border-radius: 14px;
+    backdrop-filter: blur(40px);
+    font-size: 55px;
+  }
+
+  /* Styles for the third block */
+  .block-3 {
+    left: 175px;
+    width: 758px;
+    height: 119px;
+    border-radius: 14px;
+    backdrop-filter: blur(40px);
+    font-size: 70px;
+  }
+
+  .block {
+    border-radius: 14px;
+    backdrop-filter: blur(40px);
+  }
+
+  .blocks-container {
+    bottom: 153px;
+    left: 40px;
+    gap: 20px;
+  }
+
+}
 
 
 
